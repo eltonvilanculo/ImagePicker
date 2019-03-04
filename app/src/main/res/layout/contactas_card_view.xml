@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_margin="7dp"
+    android:elevation="1dp"
+    android:id="@+id/card_view_id"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/image_view_id"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_launcher_foreground_primeira"
+
+
+            />
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manuel Antonio Carlos"
+            android:layout_margin="7dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
